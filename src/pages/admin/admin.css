@@ -1,0 +1,46 @@
+#admin{
+    display: flex;
+}
+
+.side-menu{
+    flex-grow: 1;
+    border-right: 1px solid grey;
+}
+
+.admin_body{
+    flex-grow: 6;  
+    padding-left: 15px;
+}
+
+.admin-header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul li{
+    display: inline-block;
+    text-align: center;
+    padding-inline-start: 20px;
+    margin-bottom: 20px;
+}
+
+.side-menu-ul li{
+    display: block;
+}
+
+ul details{
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+ul details li{
+    font-weight: normal;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
